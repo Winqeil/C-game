@@ -1,0 +1,1782 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Cave Tileset/Cave Tileset/_Complete_static_BG_(288 x 208).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Cave Tileset/Cave Tileset/_Complete_static_BG_(288 x 208).png
+
+#begin Cave Tileset/Cave Tileset/Brown_Tile_Terrain (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Cave Tileset/Cave Tileset/Brown_Tile_Terrain (16 x 16).png
+
+#begin Cave Tileset/Cave Tileset/FullCaveTileset.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Cave Tileset/Cave Tileset/FullCaveTileset.png
+
+#begin Cave Tileset/Cave Tileset/Gray_Tile_Terrain (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Cave Tileset/Cave Tileset/Gray_Tile_Terrain (16 x 16).png
+
+#begin Cave Tileset/Cave Tileset/Scaffolding_and_BG_Parts (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Cave Tileset/Cave Tileset/Scaffolding_and_BG_Parts (16 x 16).png
+
+#begin Level1.tmx
+/copy:Level1.tmx
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Common Pick-ups/Coin (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Common Pick-ups/Coin (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Common Pick-ups/Health_Kit (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Common Pick-ups/Health_Kit (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Common Pick-ups/Heart_Spin (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Common Pick-ups/Heart_Spin (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Common Pick-ups/Small_Coin (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Common Pick-ups/Small_Coin (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Common Pick-ups/Treasure_Chest (32 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Common Pick-ups/Treasure_Chest (32 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Common Pick-ups/Wrapped_Presents (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Common Pick-ups/Wrapped_Presents (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Effects/Bright_Sparkle (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Effects/Bright_Sparkle (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Effects/Cloud_Poof (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Effects/Cloud_Poof (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Effects/Dust (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Effects/Dust (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Effects/Explosion_Poof (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Effects/Explosion_Poof (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Effects/Yellow_Sparkle (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Effects/Yellow_Sparkle (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Bottled_Drinks (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Bottled_Drinks (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Burger_&_Fries (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Burger_&_Fries (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Cake_Slices (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Cake_Slices (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Chocolate_Bars (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Chocolate_Bars (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Fruits (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Fruits (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Grilled_Panini (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Grilled_Panini (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Ice_Cream_Cones (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Ice_Cream_Cones (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Milk_Cartons (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Milk_Cartons (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Pancake_Stack (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Pancake_Stack (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Salad_Bowl (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Salad_Bowl (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Sushi_Variety (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Sushi_Variety (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Wrapped_Candies (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Food Items/Wrapped_Candies (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Health_Indicator_Black_Outline (8 x 8).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Health_Indicator_Black_Outline (8 x 8).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Health_Indicator_White_Outline (8 x 8).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Health_Indicator_White_Outline (8 x 8).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Mouse_Icons_Outlined (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Mouse_Icons_Outlined (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Mouse_Icons_Outlined_Drop-shadowed (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Mouse_Icons_Outlined_Drop-shadowed (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Speech_Emotes (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Speech_Emotes (16 x 16).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Timer_Coin_Numbers_Drop-shadowed (8 x 8).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Timer_Coin_Numbers_Drop-shadowed (8 x 8).png
+
+#begin Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Timer_Coin_Numbers_Outlined (8 x 8).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Timer_Coin_Numbers_Outlined (8 x 8).png
+
+#begin Sprite Pack 3/Sprite Pack 3/1 - Gum Bot/Hurt (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/1 - Gum Bot/Hurt (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/1 - Gum Bot/Idle (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/1 - Gum Bot/Idle (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/1 - Gum Bot/Screen-off (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/1 - Gum Bot/Screen-off (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/1 - Gum Bot/Turn_Around_Poses (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/1 - Gum Bot/Turn_Around_Poses (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/1 - Gum Bot/Walking (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/1 - Gum Bot/Walking (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Back_Turned (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Back_Turned (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Facing_Viewer (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Facing_Viewer (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Falling (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Falling (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Hurt_&_Recovery (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Hurt_&_Recovery (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Idle (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Idle (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Jumping (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Jumping (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Looking_Upward (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Looking_Upward (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Running (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Running (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Sleeping_&_Wakeup (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Sleeping_&_Wakeup (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Slide_Turn_Around (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Slide_Turn_Around (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Touch_Ground (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Touch_Ground (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Victory_Pose (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/2 - Twiggy/Victory_Pose (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Burnt (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Burnt (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Fire_Breath (32 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Fire_Breath (32 x 16).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Fire_Breath_Running (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Fire_Breath_Running (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Fire_Breath_Standing (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Fire_Breath_Standing (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Fire_Burning (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Fire_Burning (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Fire_Projectile (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Fire_Projectile (16 x 16).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Holding_Object_Falling (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Holding_Object_Falling (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Holding_Object_Landed (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Holding_Object_Landed (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Holding_Object_Standing (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Holding_Object_Standing (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Holding_Object_Walking (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Holding_Object_Walking (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Hurt (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Hurt (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Idle (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Idle (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Jumping (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Jumping (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Laughing (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Laughing (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Looking_Upward (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Looking_Upward (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Miscellaneous_Poses (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Miscellaneous_Poses (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/On_Fire_Panic (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/On_Fire_Panic (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Pick_Up_Object (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Pick_Up_Object (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Running (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Running (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Sleeping_&_Sitting_Up (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Sleeping_&_Sitting_Up (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Throw_Object (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Throw_Object (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Touch_Ground_Landing (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Touch_Ground_Landing (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Turn_Around_Poses (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Turn_Around_Poses (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Victory_Poses (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Victory_Poses (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Walking (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/3 - Robot J5/Walking (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Falling_Poses (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Falling_Poses (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Holding_Object_Falling (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Holding_Object_Falling (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Holding_Object_Jumping (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Holding_Object_Jumping (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Holding_Object_Landed (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Holding_Object_Landed (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Holding_Object_Standing (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Holding_Object_Standing (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Holding_Object_Walking (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Holding_Object_Walking (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Hurt (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Hurt (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Idle_Poses (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Idle_Poses (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Jumping (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Jumping (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Kick (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Kick (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Kneeling (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Kneeling (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Looking_Up (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Looking_Up (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Picking_Up_Object (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Picking_Up_Object (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Pushing_Object (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Pushing_Object (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Running (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Running (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Sleeping (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Sleeping (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Throw_Object (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Throw_Object (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Touch_Ground_Landing (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Touch_Ground_Landing (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Turn_Around_Poses (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Turn_Around_Poses (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Victory_Pose (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Victory_Pose (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/4 - Tommy/Walking (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/4 - Tommy/Walking (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Falling (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Falling (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Holding_Object_Falling (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Holding_Object_Falling (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Holding_Object_Jumping (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Holding_Object_Jumping (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Holding_Object_Landed (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Holding_Object_Landed (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Holding_Object_Standing (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Holding_Object_Standing (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Holding_Object_Walking (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Holding_Object_Walking (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Hurt (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Hurt (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Idle (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Idle (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Jumping (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Jumping (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Looking_Upward (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Looking_Upward (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Miscellaneous_Poses (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Miscellaneous_Poses (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Picking_Up_Object (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Picking_Up_Object (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Pushing_Object (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Pushing_Object (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Running (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Running (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Sleeping (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Sleeping (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Touch_Ground_Landing (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Touch_Ground_Landing (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Turn_Around_Poses (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Turn_Around_Poses (32 x 32).png
+
+#begin Sprite Pack 3/Sprite Pack 3/5 - Geralt/Victory_Pose (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 3/Sprite Pack 3/5 - Geralt/Victory_Pose (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/1 - Agent_Mike_Bullet (16 x 16).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/1 - Agent_Mike_Bullet (16 x 16).png
+
+#begin Sprite Pack 4/Sprite Pack 4/1 - Agent_Mike_Hurt (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/1 - Agent_Mike_Hurt (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/1 - Agent_Mike_Idle (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/1 - Agent_Mike_Idle (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/1 - Agent_Mike_Jump_&_Falling (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/1 - Agent_Mike_Jump_&_Falling (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/1 - Agent_Mike_Running (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/1 - Agent_Mike_Running (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/10 - Blankey_Floating (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/10 - Blankey_Floating (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/10 - Blankey_Hurt (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/10 - Blankey_Hurt (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/2 - Martian_Red_Hurt (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/2 - Martian_Red_Hurt (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/2 - Martian_Red_Idle (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/2 - Martian_Red_Idle (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/2 - Martian_Red_Running (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/2 - Martian_Red_Running (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/3 - Hermie_Crawling (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/3 - Hermie_Crawling (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/3 - Hermie_Hiding_&_Peek (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/3 - Hermie_Hiding_&_Peek (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/3 - Hermie_Idle (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/3 - Hermie_Idle (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/4 - Ballooney_Flying (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/4 - Ballooney_Flying (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/5 - Robot_Walky_Hurt (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/5 - Robot_Walky_Hurt (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/5 - Robot_Walky_Idle (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/5 - Robot_Walky_Idle (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/5 - Robot_Walky_Movement (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/5 - Robot_Walky_Movement (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/6 - Jumpy_Lumpy_Hurt (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/6 - Jumpy_Lumpy_Hurt (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/6 - Jumpy_Lumpy_Idle (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/6 - Jumpy_Lumpy_Idle (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/6 - Jumpy_Lumpy_Leaping_&_Falling (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/6 - Jumpy_Lumpy_Leaping_&_Falling (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/7 - Orchid_Owl_Flying (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/7 - Orchid_Owl_Flying (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/7 - Orchid_Owl_Hurt (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/7 - Orchid_Owl_Hurt (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/7 - Orchid_Owl_Idle (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/7 - Orchid_Owl_Idle (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/8 - Roach_Hurt (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/8 - Roach_Hurt (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/8 - Roach_Idle (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/8 - Roach_Idle (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/8 - Roach_Running (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/8 - Roach_Running (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/9 - Mr._Circuit_Hurt (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/9 - Mr._Circuit_Hurt (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/9 - Mr._Circuit_Idle (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/9 - Mr._Circuit_Idle (32 x 32).png
+
+#begin Sprite Pack 4/Sprite Pack 4/9 - Mr._Circuit_Running (32 x 32).png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprite Pack 4/Sprite Pack 4/9 - Mr._Circuit_Running (32 x 32).png
+
+#begin Tiles/TilesPack/my sidescroller test.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/TilesPack/my sidescroller test.png
+
+#begin Tiles/TilesPack/my sidescroller testv2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Tiles/TilesPack/my sidescroller testv2.png
+
