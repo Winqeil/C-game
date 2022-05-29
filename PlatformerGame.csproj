@@ -24,10 +24,14 @@
     <TrimmerRootAssembly Include="Microsoft.Xna.Framework.Content.ContentTypeReader" Visible="false" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Apos.Gui" Version="1.0.11" />
+    <PackageReference Include="FontStashSharp.MonoGame" Version="1.0.8" />
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
     <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
-    <PackageReference Include="MonoGame.UI.Forms" Version="1.0.1" />
     <PackageReference Include="Myra" Version="1.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Content\Samson.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>

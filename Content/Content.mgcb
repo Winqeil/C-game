@@ -436,6 +436,9 @@
 /processorParam:TextureFormat=Color
 /build:Mini FX, Items & UI/Mini FX, Items & UI/Mini UI/Timer_Coin_Numbers_Outlined (8 x 8).png
 
+#begin Samson.ttf
+/copy:Samson.ttf
+
 #begin Sprite Pack 3/Sprite Pack 3/1 - Gum Bot/Hurt (32 x 32).png
 /importer:TextureImporter
 /processor:TextureProcessor

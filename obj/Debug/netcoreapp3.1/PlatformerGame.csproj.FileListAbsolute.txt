@@ -170,15 +170,10 @@ C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1
 C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1\Content\Sprite Pack 3\Sprite Pack 3\5 - Geralt\Touch_Ground_Landing (32 x 32).xnb
 C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1\Content\Sprite Pack 3\Sprite Pack 3\5 - Geralt\Turn_Around_Poses (32 x 32).xnb
 C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1\Content\Sprite Pack 3\Sprite Pack 3\5 - Geralt\Victory_Pose (32 x 32).xnb
-C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1\Apos.Gui.dll
-C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1\Apos.Input.dll
-C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1\Apos.Tweens.dll
 C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1\Cyotek.Drawing.BitmapFont.dll
 C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1\FontStashSharp.MonoGame.dll
-C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1\MonoGame.Extended.dll
-C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1\StbImageSharp.dll
 C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1\StbTrueTypeSharp.dll
 C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1\info.lundin.math.dll
-C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1\MonoGame.UI.Forms.dll
 C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1\Myra.dll
+C:\Users\User\source\repos\PlatformerGame\PlatformerGame\bin\Debug\netcoreapp3.1\Content\Samson.ttf

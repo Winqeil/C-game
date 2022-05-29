@@ -8,44 +8,13 @@
     ".NETCoreApp,Version=v3.1": {
       "PlatformerGame/1.0.0": {
         "dependencies": {
-          "Apos.Gui": "1.0.11",
+          "FontStashSharp.MonoGame": "1.0.8",
           "MonoGame.Content.Builder.Task": "3.8.0.1641",
           "MonoGame.Framework.DesktopGL": "3.8.0.1641",
-          "MonoGame.UI.Forms": "1.0.1",
           "Myra": "1.4.0"
         },
         "runtime": {
           "PlatformerGame.dll": {}
-        }
-      },
-      "Apos.Gui/1.0.11": {
-        "dependencies": {
-          "Apos.Input": "2.4.2",
-          "Apos.Tweens": "0.1.3",
-          "FontStashSharp.MonoGame": "1.0.7",
-          "MonoGame.Extended": "3.8.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Apos.Gui.dll": {
-            "assemblyVersion": "1.0.11.0",
-            "fileVersion": "1.0.11.0"
-          }
-        }
-      },
-      "Apos.Input/2.4.2": {
-        "runtime": {
-          "lib/netstandard2.0/Apos.Input.dll": {
-            "assemblyVersion": "2.4.2.0",
-            "fileVersion": "2.4.2.0"
-          }
-        }
-      },
-      "Apos.Tweens/0.1.3": {
-        "runtime": {
-          "lib/netstandard2.0/Apos.Tweens.dll": {
-            "assemblyVersion": "0.1.3.0",
-            "fileVersion": "0.1.3.0"
-          }
         }
       },
       "Cyotek.Drawing.BitmapFont/2.0.1": {
@@ -56,7 +25,7 @@
           }
         }
       },
-      "FontStashSharp.MonoGame/1.0.7": {
+      "FontStashSharp.MonoGame/1.0.8": {
         "dependencies": {
           "Cyotek.Drawing.BitmapFont": "2.0.1",
           "StbImageSharp": "2.22.6",
@@ -64,8 +33,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/FontStashSharp.MonoGame.dll": {
-            "assemblyVersion": "1.0.7.0",
-            "fileVersion": "1.0.7.0"
+            "assemblyVersion": "1.0.8.0",
+            "fileVersion": "1.0.8.0"
           }
         }
       },
@@ -78,17 +47,6 @@
         }
       },
       "MonoGame.Content.Builder.Task/3.8.0.1641": {},
-      "MonoGame.Extended/3.8.0": {
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "runtime": {
-          "lib/netstandard2.0/MonoGame.Extended.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "MonoGame.Framework.DesktopGL/3.8.0.1641": {
         "runtime": {
           "lib/netstandard2.0/MonoGame.Framework.dll": {
@@ -139,31 +97,15 @@
           }
         }
       },
-      "MonoGame.UI.Forms/1.0.1": {
-        "runtime": {
-          "lib/MonoGame.UI.Forms.dll": {
-            "assemblyVersion": "1.0.1.0",
-            "fileVersion": "1.0.1.0"
-          }
-        }
-      },
       "Myra/1.4.0": {
         "dependencies": {
-          "FontStashSharp.MonoGame": "1.0.7",
+          "FontStashSharp.MonoGame": "1.0.8",
           "info.lundin.math.dll": "1.2.6"
         },
         "runtime": {
           "lib/netstandard2.0/Myra.dll": {
             "assemblyVersion": "1.4.0.0",
             "fileVersion": "1.4.0.0"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.3": {
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.3.23909"
           }
         }
       },
@@ -191,27 +133,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Apos.Gui/1.0.11": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Qp6iy1dAD0O9KEEnUSXiNCIxa7WDp1mYABYDb+VJfWEoXlNxgsAOFAPJhnJXP/Reb/1QLCCEywNwipTRK/s3+w==",
-      "path": "apos.gui/1.0.11",
-      "hashPath": "apos.gui.1.0.11.nupkg.sha512"
-    },
-    "Apos.Input/2.4.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-BqiDDWYssAYmFxBBiCwEs2D6UMWYF8aAvOAjmDNlK9RvcfLqBFlBgNi7Oghf5UIjWZkHyAPolx/ZBj7PHH0jiQ==",
-      "path": "apos.input/2.4.2",
-      "hashPath": "apos.input.2.4.2.nupkg.sha512"
-    },
-    "Apos.Tweens/0.1.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-BPbs/E1Cbj4BGEBPVFX1m0DPNS+jw1UmV872UDV87ssdwgRWH3O/qjpmo3GtIDJ+j03Tl5PoABfW3HKNylXdyw==",
-      "path": "apos.tweens/0.1.3",
-      "hashPath": "apos.tweens.0.1.3.nupkg.sha512"
-    },
     "Cyotek.Drawing.BitmapFont/2.0.1": {
       "type": "package",
       "serviceable": true,
@@ -219,12 +140,12 @@
       "path": "cyotek.drawing.bitmapfont/2.0.1",
       "hashPath": "cyotek.drawing.bitmapfont.2.0.1.nupkg.sha512"
     },
-    "FontStashSharp.MonoGame/1.0.7": {
+    "FontStashSharp.MonoGame/1.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-e25yMUgm64+5PumVoA+YpdFhBdnaPv9PHEhSaUCGjXGvYhIIlYJTJtcddZNLLHZcjKAkY+5TXcXu5zo3iotbSA==",
-      "path": "fontstashsharp.monogame/1.0.7",
-      "hashPath": "fontstashsharp.monogame.1.0.7.nupkg.sha512"
+      "sha512": "sha512-tesUvj7syvRDkoMRaiSYPFgI0jpVX7GQbSeXqQuq2qLzCKbffNQ1SQnhdTlnM9a7rTeyi448b+CJdazo5H2cRA==",
+      "path": "fontstashsharp.monogame/1.0.8",
+      "hashPath": "fontstashsharp.monogame.1.0.8.nupkg.sha512"
     },
     "info.lundin.math.dll/1.2.6": {
       "type": "package",
@@ -240,13 +161,6 @@
       "path": "monogame.content.builder.task/3.8.0.1641",
       "hashPath": "monogame.content.builder.task.3.8.0.1641.nupkg.sha512"
     },
-    "MonoGame.Extended/3.8.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-FDPoUOFtslGNHCWSqjKD0C67RYN6Stb6NWnn+rkCmtkPBZlE6LvwuGyQBkHUkAMANO3LzO/Wsz9etMhwZLInqg==",
-      "path": "monogame.extended/3.8.0",
-      "hashPath": "monogame.extended.3.8.0.nupkg.sha512"
-    },
     "MonoGame.Framework.DesktopGL/3.8.0.1641": {
       "type": "package",
       "serviceable": true,
@@ -254,26 +168,12 @@
       "path": "monogame.framework.desktopgl/3.8.0.1641",
       "hashPath": "monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
     },
-    "MonoGame.UI.Forms/1.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-xtnAM1bregeEjy5MVZ2wb/nRMocbctMj5TiSKMFxcgpcz1g3Cv08Ht1Ku6nqrVUlpOQ/4gA+jEREW9N9VJnzFw==",
-      "path": "monogame.ui.forms/1.0.1",
-      "hashPath": "monogame.ui.forms.1.0.1.nupkg.sha512"
-    },
     "Myra/1.4.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-QdasPZgN5u9Lid91mNGP8fC6w7E8hgxwEfv2iCojqCodNw5z/xs+NBXNFfC8ySEG08PsbsVpVkooRTbY2e8YoQ==",
       "path": "myra/1.4.0",
       "hashPath": "myra.1.4.0.nupkg.sha512"
-    },
-    "Newtonsoft.Json/12.0.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
-      "path": "newtonsoft.json/12.0.3",
-      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
     "StbImageSharp/2.22.6": {
       "type": "package",

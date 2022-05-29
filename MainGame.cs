@@ -3,9 +3,8 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 using TiledSharp;
-using Apos.Gui;
-using Myra;
-using Myra.Graphics2D.UI;
+using FontStashSharp;
+using System.IO;
 
 namespace PlatformerGame
 {
@@ -15,6 +14,7 @@ namespace PlatformerGame
         public static float screenWidth;
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private FontSystem _fontSystem;
         private TmxMap map;
         private TilemapController tilemapController;
         private Texture2D tileset;
@@ -27,11 +27,11 @@ namespace PlatformerGame
         private List<Enemy> enemiesTrigger;
         private List<Rectangle> enemyPath;
         private List<Rectangle> triggersRct;
-        private GameController gameController;
         private List<Coin> coins;
         private List<Player> players;
         private List<Shooting> bullets;
         private Texture2D bulletSprite;
+        public int pointsCounter;
         private int bulletDelay;
         private bool IsGameEnded;
         private bool IsTriggered;
@@ -42,7 +42,6 @@ namespace PlatformerGame
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
-            gameController = new GameController();
             IsGameEnded = false;
             IsTriggered = false;
         }
@@ -61,6 +60,9 @@ namespace PlatformerGame
         {
 
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            _fontSystem = new FontSystem();
+            _fontSystem.AddFont(File.ReadAllBytes("Content\\Samson.ttf"));
 
             map = new TmxMap("Content\\Level1.tmx");
             tileset = Content.Load<Texture2D>("Cave Tileset\\Cave Tileset\\" + map.Tilesets[0].Name.ToString());
@@ -185,9 +187,8 @@ namespace PlatformerGame
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            // сбор монет и счетчик
+            // сбор монет
 
-            var pointsCounter = 0;
             foreach (var coin in coins.ToArray())
             {
                 if (coin.rectangle.Intersects(player.hitbox))
@@ -204,12 +205,16 @@ namespace PlatformerGame
             {
                 enemy.Update();
                 KillPlayer(enemy);
+                if (enemy.IsHitPlayer(player.hitbox))
+                    IsGameEnded = true;
             }
 
             foreach (var enemy in enemiesTrigger)
             {
                 enemy.Update();
                 KillPlayer(enemy);
+                if(enemy.IsHitPlayer(player.hitbox))
+                    IsGameEnded = true;
             }
 
 
@@ -341,6 +346,21 @@ namespace PlatformerGame
                 player.Draw(_spriteBatch, gameTime);
             foreach (var bullet in bullets)
                 bullet.Draw(_spriteBatch);
+            SpriteFontBase font20 = _fontSystem.GetFont(20);
+            SpriteFontBase font40 = _fontSystem.GetFont(40);
+            _spriteBatch.DrawString(font20, "A,D,W - move", new Vector2(53, 175), Color.White);
+            _spriteBatch.DrawString(font20, "Enter - fire", new Vector2(53, 195), Color.White);
+            _spriteBatch.DrawString(font20, "collect gold", new Vector2(53, 215), Color.White);
+            _spriteBatch.DrawString(font20, "Destroy ballons", new Vector2(53, 235), Color.White);
+            if (IsGameEnded)
+            {
+                _spriteBatch.DrawString(font40, "You Lose!", new Vector2(450, 193), Color.Red);
+                _spriteBatch.DrawString(font40, "Please restart the game", new Vector2(320, 233), Color.Red);
+            }
+
+            if(pointsCounter == 22)
+                _spriteBatch.DrawString(font40, "You Win, congratulations!", new Vector2(320, 233), Color.White);
+
             _spriteBatch.End();
 
             base.Draw(gameTime);
