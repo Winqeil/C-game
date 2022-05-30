@@ -24,7 +24,7 @@ namespace PlatformerGame
 
         public override void Update()
         {
-            //проверка на хитбокс внутри пути
+            //проверка на хитбокс внутри пути и разворот врага
 
             if (!path.Contains(hitbox))
             {

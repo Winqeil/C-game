@@ -48,7 +48,7 @@ namespace PlatformerGame
 
         protected override void Initialize()
         {
-            _graphics.PreferredBackBufferHeight = 450;
+            _graphics.PreferredBackBufferHeight = 470;
             _graphics.PreferredBackBufferWidth = 1020;
             _graphics.ApplyChanges();
             screenHeight = _graphics.PreferredBackBufferHeight;
@@ -160,6 +160,13 @@ namespace PlatformerGame
                 );
             enemiesKillable.Add(enemy);
 
+            enemy = new Enemy(
+                Content.Load<Texture2D>("Sprite Pack 4\\Sprite Pack 4\\4 - Ballooney_Flying (32 x 32)"),
+                enemyPath[9],
+                1.0f
+                );
+            enemiesKillable.Add(enemy);
+
 
             enemiesTrigger = new List<Enemy>(); // враги, который появляются при триггере
             enemy = new Enemy(
@@ -259,22 +266,22 @@ namespace PlatformerGame
             if (player.IsShooting)
             {
 
-                if (bulletDelay > 25 && bullets.ToArray().Length < 20) //время между выстрелами
+                if (bulletDelay > 20) //время между выстрелами
                 {
 
-                    var tempHitbox = new Rectangle((int)player.position.X + 7, (int)player.position.Y + 16,
+                    var bulletHitbox = new Rectangle((int)player.position.X + 7, (int)player.position.Y + 16,
                     bulletSprite.Width, bulletSprite.Height);
 
                     if (player.effects == SpriteEffects.None) // стрельба вправо
                     {
 
-                        bullets.Add(new Shooting(bulletSprite, 4, tempHitbox));
+                        bullets.Add(new Shooting(bulletSprite, 4, bulletHitbox));
                     }
 
                     if (player.effects == SpriteEffects.FlipHorizontally) // стрельба влево
                     {
 
-                        bullets.Add(new Shooting(bulletSprite, -4, tempHitbox));
+                        bullets.Add(new Shooting(bulletSprite, -4, bulletHitbox));
                     }
 
                     bulletDelay = 0;
@@ -358,7 +365,7 @@ namespace PlatformerGame
                 _spriteBatch.DrawString(font40, "Please restart the game", new Vector2(320, 233), Color.Red);
             }
 
-            if(pointsCounter == 22)
+            if(pointsCounter == 27)
                 _spriteBatch.DrawString(font40, "You Win, congratulations!", new Vector2(320, 233), Color.White);
 
             _spriteBatch.End();
